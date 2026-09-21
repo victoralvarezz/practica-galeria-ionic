@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-toolbar>
+    <!-- Interpolación de la variable tituloSeccion -->
+    <ion-title>{{ tituloSeccion }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <!-- Property Binding [src] apuntando a la variable rutaImagenLocal -->
+  <img [src]="rutaImagenLocal" alt="Foto cargada localmente" />
+</ion-content>
